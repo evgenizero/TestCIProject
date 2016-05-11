@@ -33,7 +33,7 @@ android {
         }
         debug {
             ext.enableCrashlytics = true
-            ext.betaDistributionEmails = "evgeniy.yanev@mentormate.com"
+            ext.betaDistributionEmails="evgeniy.yanev@mentormate.com"
         }
     }
 }

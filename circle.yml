@@ -44,3 +44,6 @@ test:
 
     # copy artifacts
     - cp -r app/build/outputs $CIRCLE_ARTIFACTS
+
+    # distribute via Fabric
+    - ./gradlew assembleDebug crashlyticsUploadDistributionDebug
