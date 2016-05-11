@@ -6,7 +6,7 @@ test:
     #    parallel: true
   override:
     # build the code without pre dex for build speed up
-    - ./gradle app:assembleDebug
+    - ./gradlew app:assembleDebug
 
     # start wiremock to support tests with network communication
     - tools/src/main/resources/start-wiremock.sh:
